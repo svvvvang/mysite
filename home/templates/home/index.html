@@ -66,17 +66,71 @@
         <h1>Welcome to My Django Site</h1>
         
         <div class="tab">
-            <button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button>
-            <button class="tablinks" onclick="openTab(event, 'About')">About</button>
+            <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+            <button class="tablinks" onclick="openTab(event, 'ProjectOverview')">Project Overview</button>
             <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
         </div>
 
-        <div id="Home" class="tabcontent">
-            <p>This is the homepage of my awesome Django project!</p>
+        <div id="About" class="tabcontent">
+            <h1>Introduction</h1>
+            <p>Welcome to my personal project website. This space is dedicated to exploring my interests in technology, particularly in server management, cloud computing, virtualization, and container technology.</p>
+
+            <h1>About Me</h1>
+            <p>I am a dynamic IT professional with expertise in infrastructure support, cloud computing, and operations management. In my current role as an Infrastructure Support Engineer, I manage Azure cloud services and optimize system performance.</p>
+
+            <h2>My Background Includes:</h2>
+            <ul>
+                <li><strong>Cloud & Infrastructure:</strong> Skilled in Azure administration and Microsoft 365, with a focus on enhancing collaboration and ensuring high availability.</li>
+                <li><strong>Operations Management:</strong> Proven track record in implementing processes that drive efficiency and sales growth in e-commerce.</li>
+                <li><strong>Continuous Learning:</strong> Recently completed a bootcamp in Microsoft Cloud Support.</li>
+            </ul>
+
+            <p>I hold several certifications, including Azure Solutions Architect Expert, Azure Administrator, and Google IT Automation with Python. These credentials reflect my commitment to staying current in the rapidly evolving tech landscape and equip me with the skills to deliver innovative solutions.</p>
+
+            <p>With strong analytical skills and a commitment to professional growth, I thrive in fast-paced environments and enjoy solving complex problems.</p> 
+
         </div>
 
-        <div id="About" class="tabcontent">
-            <p>Learn more about our Django project here.</p>
+        <div id="ProjectOverview" class="tabcontent">
+            <h2>Project Overview</h2>
+            <p>This project is a comprehensive web application showcasing modern development practices and technologies. Here's an overview of our approach and the tools we're using:</p>
+            
+            <div class="overview-section">
+                <h3>Architecture</h3>
+                <p>We've adopted a microservices architecture to ensure scalability and maintainability. Our backend is built with Django, providing a robust API that our React frontend consumes.</p>
+            </div>
+
+            <div class="overview-section">
+                <h3>Key Features</h3>
+                <ul>
+                    <li>Responsive design for seamless mobile and desktop experiences</li>
+                    <li>RESTful API for efficient data handling</li>
+                    <li>Real-time updates using WebSockets</li>
+                    <li>Comprehensive test suite for backend and frontend</li>
+                </ul>
+            </div>
+
+            <div class="overview-section">
+                <h3>Technology Stack</h3>
+                <ul>
+                    <li><strong>Backend:</strong> Django (Python), PostgreSQL, Redis</li>
+                    <li><strong>Frontend:</strong> React.js, HTML5, CSS3 (Sass)</li>
+                    <li><strong>DevOps:</strong> Docker, Kubernetes, Jenkins</li>
+                    <li><strong>Cloud:</strong> Microsoft Azure (AKS, Azure Database)</li>
+                </ul>
+            </div>
+
+            <div class="overview-section">
+                <h3>Development Practices</h3>
+                <ul>
+                    <li>Agile methodology with two-week sprints</li>
+                    <li>Continuous Integration and Deployment (CI/CD)</li>
+                    <li>Code reviews and pair programming</li>
+                    <li>Regular security audits and performance optimizations</li>
+                </ul>
+            </div>
+
+            <p>This project demonstrates our commitment to using cutting-edge technologies while maintaining high standards of code quality and user experience.</p>
         </div>
 
         <div id="Contact" class="tabcontent">
